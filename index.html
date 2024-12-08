@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin Shrivastav - Portfolio</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(120deg, #1c1b29, #27293d);
+            color: #f5f5f5;
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(120deg, #4e54c8, #8f94fb);
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 400px;
+            height: 400px;
+            background: rgba(255, 255, 255, 0.1);
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+            filter: blur(100px);
+        }
+
+        /* Profile Image */
+        .photo {
+            display: flex;
+            justify-content: center;
+            margin-top: -60px;
+        }
+
+        .photo img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid #ffffff;
+            object-fit: cover;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Section Styles */
+        section {
+            padding: 50px 10%;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            color: #8f94fb;
+            margin-bottom: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        section h2::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background: #4e54c8;
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
+
+        section p {
+            text-align: center;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .skills ul,
+        .projects ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .skills li,
+        .projects li {
+            background: #33354d;
+            padding: 15px 20px;
+            border-radius: 8px;
+            font-size: 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .skills li:hover,
+        .projects li:hover {
+            background: #4e54c8;
+            color: white;
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+
+        /* Contact Section */
+        .contact a {
+            display: inline-block;
+            text-decoration: none;
+            background: #4e54c8;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background 0.3s ease;
+        }
+
+        .contact a:hover {
+            background: #8f94fb;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #27293d;
+            color: #aaa;
+        }
+
+        footer p {
+            margin: 10px 0;
+        }
+
+        footer a {
+            color: #8f94fb;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sachin Shrivastav</h1>
+    <p>Web Developer | BSc.IT Student | Tech Enthusiast</p>
+    <div class="photo">
+        <img src="Bajrangbali.jpg" alt="Sachin Shrivastav">
+    </div>
+</header>
+
+<section class="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Sachin, a passionate SYBSc.IT student with a love for technology, coding, and design. With over 100 projects completed, I specialize in building dynamic web applications and exploring modern IT concepts.</p>
+</section>
+
+<section class="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>MongoDB</li>
+        <li>Python</li>
+        <li>Data Structures</li>
+        <li>Operating Systems</li>
+        <li>Computer Networks</li>
+    </ul>
+</section>
+
+<section class="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li>100+ Personal Projects</li>
+        <li>Web Design using HTML, CSS, JS</li>
+        <li>Full-Stack Apps (Node.js, Express.js, MongoDB)</li>
+        <!-- <li>Python-based Problem Solving</li> -->
+    </ul>
+</section>
+
+<section class="contact">
+    <h2>Contact Me</h2>
+    <p>Follow me on Instagram:</p>
+    <a href="https://www.instagram.com/_sachin_s.s_" target="_blank">@_sachin_s.s_</a>
+</section>
+
+<footer>
+    <p>Made with 💻 ❤️by Sachin Shrivastav</p>
+</footer>
+
+</body>
+</html>
